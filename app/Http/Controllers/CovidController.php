@@ -10,7 +10,7 @@ class CovidController extends Controller
 {
     public function charts()
     {
-        $susspect = collect(Http::get('https://api.kawalcorona.com/indonesia')->json());
+        $susspect = collect(Http::get('https://api.kawalcorona.com/indonesia/provinsi')->json());
         $susspectData = $susspect->flatten(1);
 
         $labels = $susspectData->pluck('Provinsi');
