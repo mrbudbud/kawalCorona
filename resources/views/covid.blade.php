@@ -24,6 +24,7 @@
     <title>Covid-19</title>
 </head>
 <body>
+    
     <div class="hhh">
         <h1 style="blue">Penyebaran Covid-19 di Indonesia</h1>
     </div>
@@ -34,7 +35,7 @@
         {!! $chart->script() !!}
     </div>
 
-        <center><a href=''></a>(30 Maret 2020 ) ~ copyright &#169; Powered by <a href='http://www.blogger.com/'><h6> mr.budbud</h6></a></center>
+        <center><a href=""></a>(2 April 2020 ) ~ copyright &#169; Powered by <a href='#'><h6> mr.budbud</h6></a></center>
 
 </body>
 </html>
